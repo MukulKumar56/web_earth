@@ -14,7 +14,7 @@ const Hero = () => {
     <div className="hero-content">
     
        <h1 className="hero-title typewriter">
-          Save earth
+          Save earths
        </h1>
          
        <h2 className="hero-subtitle">

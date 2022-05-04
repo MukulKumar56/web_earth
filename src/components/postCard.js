@@ -37,7 +37,7 @@ const PostCard = () => {
           <p>Our Earth is the only planet with the continuity of life so it becomes more and more important to generate a sense of urgency of saving our mother earth from all sorts of planet harming activities. Our mother earth needs to be saved as our survival depends completely on this planet. It is our responsibility to raise awareness about saving our mother earth.
 </p>
         </div>
-       <Link to="post1"><button className="glow-on-hover m-0">Read more </button></Link>
+       <Link to="/web_earth/post1"><button className="glow-on-hover m-0">Read more </button></Link>
       </div>
 
       <div className=" box">
@@ -57,7 +57,7 @@ Invest in reusable shopping bags :
 Plastic is a non-biodegradable substance that can harm flora and fauna for decades, which is why it is now slowly being replaced and banned. A small change you can make is to use reusable bags instead of plastic bags, which can be cost-effective, durable and most importantly, harmless to the environment.
 </p>
         </div>
-        <Link to="post2"><button className="glow-on-hover m-0">Read more </button></Link>
+        <Link to="/web_earth/post2"><button className="glow-on-hover m-0">Read more </button></Link>
       </div>
 
 
@@ -75,7 +75,7 @@ Plastic is a non-biodegradable substance that can harm flora and fauna for decad
 
           <p>The Environment has suffered for thousands of years due to Human Activities. Since as Homo sapiens we first walked the earth, there have been several modifications on the planet and around us through the development of infrastructure, travel, and the incorporation of urbanization and other commercial</p>
         </div>
-        <Link to="post3"><button className="glow-on-hover m-0">Read more </button></Link>
+        <Link to="/web_earth/post3"><button className="glow-on-hover m-0">Read more </button></Link>
 
       </div>
 

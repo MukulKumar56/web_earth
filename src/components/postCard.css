@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Tapestry&display=swap');
+
+.box {
+  /* margin-top: 30px; */
+
+  /* margin-left: 50px; */
+  /* margin-bottom: 30px;  */
+  border-radius: 22px;
+  height: 70vh;
+  width: 27vw;
+  background-color: rgb(181 167 167 / 12%);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+
+}
+
+
+
+.posts h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgb(138, 35, 138);
+  font-family: sans-serif;
+}
+
+.post-content p {
+  padding: 0px 20px;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Merriweather Sans', sans-serif;
+  height: 22vh;
+  color: black;
+  /* background-color: red; */
+  overflow: hidden;
+}
+
+.post-content h1 {
+  font-size: 25px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  margin: 10px;
+  color: orangered;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
+  /* row-gap: 10px;
+    column-gap: 10px; */
+}
+
+
+
+
+.btn {
+  margin-top: 0.5rem;
+  height: 7vh;
+  width: auto;
+  padding: 0px 32px;
+  font-size: 15px;
+  background-color: orangered;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(224, 126, 14);
+  cursor: pointer;
+
+}
+
+.box:hover {
+  /* border: 1px solid; */
+  box-shadow: 10px 10px 5px rgba(107, 107, 107, 0.52);
+  /* height: 80vh; */
+  /* width: 27vw; */
+  transition: all 0.3s ease-in-out;
+  transition: scale(1.5);
+}
+
+@media  only screen  and (max-width:870px) {
+  .flex-r {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+   
+    margin-bottom: 20px;
+
+  }
+
+  .box img {
+    width: 33vw;
+  }
+
+  .posts h1 {
+    margin-bottom: 20px;
+  }
+
+
+
+}
+
+@media (max-width:670px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+
+  }
+
+  .box img {
+    width: 50vw;
+  }
+
+  .posts h1 {
+    font-size: 27px;
+    margin-bottom: 18px;
+  }
+
+}
+
+@media (max-width:670px) {
+  .box {
+    width: 80vw;
+
+    margin: auto;
+
+  }
+
+  .box img {
+    width: 70vw;
+  }
+}
+
+
+
+
+.hwra {
+  height: 11rem;
+  width: 89%;
+  margin-top: 1rem;
+  border-radius: 20px;
+  /* background-color: red; */
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.post1 {
+  background-image: url(../../public/images/cyber-security-3400657_1920.jpg);
+}
+
+.post4 {
+  background-image: url(../../public/images/meeting-2284501_1920.jpg);
+}
+
+.post5 {
+  background-image: url(../../public/images/quiz-2137664_1920.jpg);
+}
+
+.post6 {
+  background-image: url(../../public/images/video-2562034_1920.jpg);
+}
+
+.m-0 {
+  margin: 0;
+}
+
+
+
+.bg-r {
+  background-color: rgba(44, 190, 223, 0.131);
+}
+
+
+
+.btn2 {
+  width: 15vw;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: inherit;
+  background: rgb(125, 13, 125);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  margin-top: 3rem;
+  border: 1px solid black;
+  /* padding: 0.9375rem; */
+  border-radius: 10px;
+}
+
+.btn2:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.btn2:active {
+  color: #000
+}
+
+.btn2:active:after {
+  background: transparent;
+}
+
+.btn2:hover:before {
+  opacity: 1;
+}
+
+.btn2:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(125, 13, 125);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}

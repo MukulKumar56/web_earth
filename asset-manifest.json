@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/web_earth/static/css/main.01f1a85f.css",
+    "main.js": "/web_earth/static/js/main.ecdf66f1.js",
+    "static/media/banner.jpg": "/web_earth/static/media/banner.c11352c2d8fa7c69e051.jpg",
+    "static/media/video-2562034_1920.jpg": "/web_earth/static/media/video-2562034_1920.51a1ded8c144943fee02.jpg",
+    "static/media/meeting-2284501_1920.jpg": "/web_earth/static/media/meeting-2284501_1920.96f148b51d28dfb391be.jpg",
+    "static/media/cyber-security-3400657_1920.jpg": "/web_earth/static/media/cyber-security-3400657_1920.bcc2f54224b596044319.jpg",
+    "static/media/quiz-2137664_1920.jpg": "/web_earth/static/media/quiz-2137664_1920.f644eb1637ef50ec7fe7.jpg",
+    "static/media/post3.jpg": "/web_earth/static/media/post3.88beeeb93a54f6ba8213.jpg",
+    "static/media/post2.jpeg": "/web_earth/static/media/post2.bb1b5c39a44aeb91eddf.jpeg",
+    "static/media/post01.jpg": "/web_earth/static/media/post01.1a56702e479f61049d3e.jpg",
+    "index.html": "/web_earth/index.html",
+    "main.01f1a85f.css.map": "/web_earth/static/css/main.01f1a85f.css.map",
+    "main.ecdf66f1.js.map": "/web_earth/static/js/main.ecdf66f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f1a85f.css",
+    "static/js/main.ecdf66f1.js"
+  ]
+}

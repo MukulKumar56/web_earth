@@ -24,6 +24,7 @@ const App = () => {
      
 
       <Routes>
+           <Route path='/web_earth/' element={<Home />} />
 
           <Route path='/web_earth' element={<Home />} />
         <Route path='/post1' element={<Post1 />} />

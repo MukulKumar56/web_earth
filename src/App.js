@@ -27,11 +27,11 @@ const App = () => {
            <Route path='/web_earth/' element={<Home />} />
 
           <Route path='/web_earth' element={<Home />} />
-        <Route path='/post1' element={<Post1 />} />
-        <Route path='/post1' element={<Post1 />} />
-        <Route path='/post2' element={<Post2 />} />
-        <Route path='/post3' element={<Post3 />} />
-        <Route path='/terms' element={<Terms />} />
+        <Route path='/web_earth/post1' element={<Post1 />} />
+        <Route path='/web_earth/post1' element={<Post1 />} />
+        <Route path='/web_earth/post2' element={<Post2 />} />
+        <Route path='/web_earth/post3' element={<Post3 />} />
+        <Route path='/web_earth/terms' element={<Terms />} />
 
 
 

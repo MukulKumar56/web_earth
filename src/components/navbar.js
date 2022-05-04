@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link className='nav-link' aria-current="page" to="/web_earth">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className='nav-link' to="/post2">Tips</Link>
+                <Link className='nav-link' to="/web_earth/post2">Tips</Link>
               </li>
               <li className="nav-item">
                 <a className='nav-link' href='https://www.youtube.com/results?search_query=Save++earth'>Videos</a>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <a className='nav-link' href="https://kids.nationalgeographic.com/games/quizzes">Quizzes</a>
               </li>
               <li className="nav-item">
-                <Link className='nav-link'  to="/terms">Terms& conditions</Link>
+                <Link className='nav-link'  to="/web_earth/terms">Terms& conditions</Link>
               </li>
 
 
